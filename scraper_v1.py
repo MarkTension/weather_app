@@ -42,6 +42,7 @@ def main():
     # driver.get('//*[@id="weather"]/div[1]/div/div[2]/div[2]/p[3]/a')
 
 
+
     # get access to full txt
     xpathname = '//*[@id="weather"]/div[1]/div/div[2]/div[2]/p[3]/a'
     xpath_element = driver.find_element(By.XPATH, xpathname)
